@@ -1,5 +1,5 @@
 function test(){
-    for(var i=0 ; i<4 ; i++ ){//var est de scope fonction
+    for(var i=0 ; i<4 ; i++ ){//var est de scope fonction(visible dans toute la fonction)
         console.log(i)
     }
     console.log(i)
