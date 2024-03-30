@@ -27,3 +27,23 @@ return chaine
 let texte = "hello DEVS we are in 2024"
 let resultat = traitement_chaine(texte)
 console.log(resultat)
+let fruits = ["banane","fraises","cerises","poires"]
+const quelFruit = prompt("vous desirez quel fruit?")//pour afficher une boite dialogue
+let exist = false
+let t = 0
+for(let i in fruits){
+    if(quelFruit==fruits[i]){
+        fruits[t]=""
+        alert("il existe")
+        exist = true
+    }
+  
+}
+
+if(exist==false){
+    document.writeln("le fruit que vous avez choisi nexiste pas")
+}
+let i = 0
+for(i in fruits){
+    document.write(fruits[i]+"<br/>")
+}
