@@ -8,7 +8,7 @@ let fruits = t.push("kiwi")
 console.log(t)
 t[0]="pomme"
 console.log(t)
-const women=["massiwelle","amina","tesnim"]
+const women=["massizelle","amina","tesnim"]
 const men =["abdennour","tarik"]
 const multiple = women.concat(men)
 console.log(multiple)
