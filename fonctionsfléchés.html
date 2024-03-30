@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //creer une fonction qui prend en parametre deux arguments le premier cest une chaine de
+        // caractere ,le deuxieme est le nombre de fois a repeter la chaine de caractere
+        //repeter ("massizelle",2)->massizellemassizelle
+    function repeter(chaine,j){
+        for(let i=0 ; i<j ; i++){
+            document.writeln(chaine)
+        }
+    }
+    repeter("tesnim",2)
+    function repeter2(chaine,j){
+        return chaine.split("").map(function(i){return i.repeat(j)}).join("")}
+    console.log(repeter2("tesnim",2))
+    let repeter3=(chaine,j)=>{
+        return chaine.split("").map(i=>i.repeat(j)).join("")
+    }
+    console.log(repeter3("tesnim",2))
+    </script>
+</body>
+</html>
